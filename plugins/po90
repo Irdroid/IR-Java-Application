@@ -1,0 +1,36 @@
+
+# Please make this file available to others
+# by sending it to <lirc@bartelmus.de>
+#
+# this config file was automatically generated
+# using lirc-0.9.0(IRToy) on Thu May 19 23:58:44 2016
+#
+# contributed by 
+#
+# brand:                       ./po90
+# model no. of remote control: 
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  ./po90
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       4508  4531
+  one           493  1723
+  zero          493   595
+  ptrail        490
+  gap          107401
+  toggle_bit_mask 0x0
+
+      begin codes
+          po                       0xE0E048B7
+          pp                       0xE0E048B7
+          nnn                      0xE0E008F7
+      end codes
+
+end remote

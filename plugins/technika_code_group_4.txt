@@ -1,0 +1,41 @@
+
+# Please make this file available to others
+# by sending it to <lirc@bartelmus.de>
+#
+# this config file was automatically generated
+# using lirc-0.9.0(IRToy) on Tue Jul 10 16:10:05 2018
+#
+# contributed by 
+#
+# brand:                       technika
+# model no. of remote control: LCD32-209
+# devices being controlled by this remote: LCD32-209
+#
+
+begin remote
+
+  name  technika_code_group_4
+  flags RAW_CODES|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  ptrail        875
+  gap          115469
+
+      begin raw_codes
+
+          name POWERTOGGLE
+              917     831     917     831    1770     831
+              917     831     938     789     917    1727
+             1813     789     938    1685     938     789
+             1813     810     938
+
+          name INPUTSELECT
+              917     831    1770     831     917     831
+              917     831     938     789     938    1685
+              917     831     938     789     938     789
+             1813     789     938     810     938
+
+      end raw_codes
+
+end remote

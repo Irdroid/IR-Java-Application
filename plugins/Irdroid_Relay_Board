@@ -1,0 +1,56 @@
+
+# Please make this file available to others
+# by sending it to <lirc@bartelmus.de>
+#
+# this config file was automatically generated
+# using lirc-0.9.0(IRToy) on Fri Jun 10 11:38:35 2016
+#
+# contributed by 
+#
+# brand:                       ./Irdroid_Relay_Board
+# model no. of remote control: 
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  ./Irdroid_Relay_Board
+  flags RAW_CODES
+  eps            30
+  aeps          100
+
+  gap          22979
+
+      begin raw_codes
+
+          name 1
+             2410     554     682     575     682     554
+              661     554     661     575     661     575
+              639     575     639     597    1237     575
+              639     575     639     597     639     575
+              618
+
+          name 2
+             2410     575    1237     575     661     554
+              661     554     661     575     661     575
+              639     575     639     597    1215     575
+              639     575     639     618     639     575
+              618
+
+          name 3
+             2410     575     661     597    1194     597
+              639     575     639     575     618     639
+              639     575     618     639    1173     639
+              618     618     618     618     618     639
+              618
+
+          name 4
+             2410     575    1237     575    1258     554
+              661     554     661     575     661     554
+              661     575     639     597    1237     575
+              639     575     639     597     639     575
+              618
+
+      end raw_codes
+
+end remote

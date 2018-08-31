@@ -1,0 +1,56 @@
+
+# Please make this file available to others
+# by sending it to <lirc@bartelmus.de>
+#
+# this config file was automatically generated
+# using lirc-0.9.0(IRToy) on Wed Jan 06 18:05:53 2016
+#
+# contributed by 
+#
+# brand:                       joro1234
+# model no. of remote control: 
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  joro1234
+  flags RAW_CODES
+  eps            30
+  aeps          100
+
+  gap          46749
+
+      begin raw_codes
+
+          name joro
+             8959    4479     554    1578     575     511
+              554     511     554     511     554     511
+              554    1578     554     511     554     511
+              554     511     554    1557     554     511
+              554    1578     618    1514     618    1514
+              554     511     554     554     533     533
+              533    1578     554     511     554    1578
+              554     511     575     511     554     511
+              554    1578     554    1557     554     511
+              575    1557     554     511     618    1514
+              554    1578     575    1557     554     533
+              533
+
+          name bako
+             8959    4479     554    1578     554     511
+              554     511     554     511     554     511
+              554    1578     554     511     554     511
+              554     511     554    1557     554     511
+              554    1578     554    1578     575    1557
+              554     511     554     533     554     511
+              554    1578     554     511     554    1557
+              554     511     554     511     575     511
+              554    1578     554    1578     554     511
+              554    1578     554     511     554    1578
+              554    1557     554    1578     554     511
+              554
+
+      end raw_codes
+
+end remote

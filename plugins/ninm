@@ -1,0 +1,35 @@
+
+# Please make this file available to others
+# by sending it to <lirc@bartelmus.de>
+#
+# this config file was automatically generated
+# using lirc-0.9.0(IRToy) on Thu May 26 10:46:20 2016
+#
+# contributed by 
+#
+# brand:                       ./ninm
+# model no. of remote control: 
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  ./ninm
+  bits           32
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       4487  4539
+  one           490  1726
+  zero          490   597
+  ptrail        490
+  gap          47258
+  toggle_bit_mask 0x0
+
+      begin codes
+      end codes
+
+end remote
+
+

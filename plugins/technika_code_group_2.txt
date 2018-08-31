@@ -1,0 +1,41 @@
+
+# Please make this file available to others
+# by sending it to <lirc@bartelmus.de>
+#
+# this config file was automatically generated
+# using lirc-0.9.0(IRToy) on Tue Jul 10 16:03:09 2018
+#
+# contributed by 
+#
+# brand:                       TECHNIKA
+# model no. of remote control:  LCD46-920
+# devices being controlled by this remote: LCD46-920
+#
+
+begin remote
+
+  name  technika_code_group_2
+  flags RAW_CODES|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  ptrail        896
+  gap          113555
+
+      begin raw_codes
+
+          name POWERTOGGLE
+              938     831    1813     831     938     831
+              959     789     959     789     938    1706
+             1855     789     959    1685     959     789
+             1855     789     959
+
+          name INPUTSELECT
+              938     831    1813     831     938     831
+              938     831     959     789     959    1685
+              959     789     959     789     959     789
+             1855     789     959     831     938
+
+      end raw_codes
+
+end remote
